@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electric Circuit Diagram</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            text-align: center;
+            padding: 30px;
+        }
+        .circuit {
+            display: inline-block;
+            padding: 20px;
+            background: white;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+        .battery, .resistor, .led {
+            margin: 20px;
+            font-weight: bold;
+        }
+        .line {
+            width: 120px;
+            height: 2px;
+            background: black;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Simple Electric Circuit</h1>
+
+    <div class="circuit">
+        <div class="battery">🔋 Battery (+)</div>
+
+        <div class="line"></div>
+
+        <div class="resistor">🔸 Resistor (330Ω)</div>
+
+        <div class="line"></div>
+
+        <div class="led">💡 LED</div>
+
+        <div class="line"></div>
+
+        <div class="battery">Battery (–)</div>
+    </div>
+
+    <p>Battery → Resistor → LED → Back to Battery</p>
+
+</body>
+</html>
